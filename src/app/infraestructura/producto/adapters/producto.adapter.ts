@@ -11,7 +11,7 @@ Injectable({
 export class ProductoAdapter implements IProductoAdapter {
 
     private readonly httpClient = inject(HttpClient);
-    private readonly baseUrl: string = `${ENVIRONMENTS.baseUrl}/productS`;
+    private readonly baseUrl: string = `${ENVIRONMENTS.baseUrl}/products`;
     
 
     constructor(){}
